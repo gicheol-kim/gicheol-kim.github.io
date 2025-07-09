@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
     // 3. 응답 (res) 정보 설정 및 로깅
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain; charset=utf-8'); // 한글 깨짐 방지
-    const responseBodyContent = '안녕하세요, 월드!\n'; // 응답할 실제 내용
+    const responseBodyContent = 'gicheol-kim.github.io Server\n'; // 응답할 실제 내용
 
     console.log(`  --- 응답 (Response) 정보 ---`);
     console.log(`    설정된 상태 코드 (Status Code): ${res.statusCode}`);
